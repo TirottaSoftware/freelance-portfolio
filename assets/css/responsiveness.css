@@ -1,0 +1,433 @@
+@media only screen and (min-width: 1365px) and (max-width: 1599px){
+    .about-container .img-wrapper{
+        max-width: 35%;
+    }
+    .about-container .about-content{
+        margin-right: 5%;
+    }
+    .about-container .about-content p{
+        font-size: 1.15rem;
+    }
+    .designs-container, .projects-container{
+        width: 80%;
+    }
+    .services-container{
+        width: 80%;
+        right: 10%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1365px){ 
+    .hero-container .hero-right .img-wrapper img{
+        max-width: 95%;
+    }
+    .hero-container .hero-text #name{
+        font-size: 3.25rem;
+    }
+    .hero-container .hero-text .cta-container .cta{
+        width: 47.5%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1rem;
+    }
+    .hero-container .hero-text #position{
+        font-size: 1.5rem;
+    }
+
+    .section-container .section-title{
+        font-size: 2.25rem;
+    }
+
+    .about-container .img-wrapper{
+        max-width: 40%;
+    }
+    .about-container .about-content{
+        margin-right: 5%;
+    }
+    .about-container .about-content #about-name{
+        font-size: 3.5rem;
+    }
+    .about-container .about-content p{
+        font-size: 1.1rem;
+    }
+    .about-container .about-content #btn-download{
+        margin-top: 10%;
+        background: var(--color-accent-light);
+        padding: 15px 70px;
+        /* border-radius: 50px; */
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+
+    #services-title{
+        margin: 5% auto 20% auto;
+    }
+    .services-container{
+        width: 80%;
+        right: 10%;
+    }
+    .services-container .service-card{
+        width: 30%;
+    }
+
+    .designs-container{
+        justify-content: space-between;
+    }
+    .designs-container .design-card{
+        margin: 0;
+    }
+    .designs-container, .projects-container{
+        width: 90%;
+    }
+
+    .process-container .process-card{
+        height: 350px;
+    }
+    .twitter-container .twitter-content{
+        width: 40%;
+    }
+    .contact-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .hero-container .hero-right .img-wrapper img{
+        max-width: 90%;
+    }
+    .hero-container .hero-text #name{
+        font-size: 2.5rem;
+    }
+    .hero-container .hero-text .cta-container .cta{
+        width: 47.5%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1rem;
+    }
+    .hero-container .hero-text #position{
+        font-size: 1.25rem;
+    }
+
+    .section-container .section-title{
+        font-size: 2rem;
+    }
+    .section-container .section-title{
+        font-size: 2rem;
+    }
+    .nav-links{
+        display: none;
+    }
+    .about-container{
+        flex-flow: column-reverse;
+    }
+    .about-container .img-wrapper{
+        max-width: 50%;
+        margin: 5% auto;
+    }
+    .about-container .about-content{
+        margin-right: 5%;
+        text-align: center;
+    }
+    .about-container .about-content #about-name{
+        font-size: 3.5rem;
+    }
+    .about-container .about-content p{
+        font-size: 1.1rem;
+    }
+    .about-container .about-content #btn-download{
+        margin-top: 10%;
+        background: var(--color-accent-light);
+        padding: 15px 70px;
+        /* border-radius: 50px; */
+        text-transform: uppercase;
+        font-size: 1.1rem;
+    }
+    
+    #services-title{
+        margin: 5% auto 25% auto;
+    }
+    .services-container{
+        width: 80%;
+        right: 10%;
+    }
+    .services-container .service-card{
+        width: 30%;
+        height: 350px;
+    }
+    .services-container .service-card h4{
+        font-size: 1.5rem;
+    }
+    .services-container .service-card p{
+        font-size: 0.9rem;
+    }
+    .services-bg{
+        padding-top: 30%;
+    }
+    
+    .designs-container{
+        justify-content: space-between;
+    }
+    .designs-container .design-card{
+        margin: 0;
+    }
+    .designs-container{
+        width: 95%;
+    }
+
+    .projects-container{
+        flex-flow: column;
+        margin: 20% auto;
+        width: 80%;
+    }
+    .projects-container .project-card:first-child{
+        flex-flow: row-reverse;
+    }
+    .project-card .img-wrapper{
+        width: 50%;
+    }
+    .project-card:hover{
+        padding: 0;
+    }
+    .project-card .card-details{
+        width: 50%;
+        position: relative;
+        opacity: 1;
+    }
+    
+    .projects-container .project-card, .card-row{
+        margin-top: 5%;
+        width: 100%;
+        flex-flow: row;
+        align-items: unset;
+        justify-content: space-between;
+    }
+    .card-row .project-card{
+        margin: 0;
+        height: auto;
+    }
+
+    .process-container{
+        width: 80%;
+    }
+
+    .twitter-container .twitter-content{
+        width: 50%;
+    }
+
+    .contact-container .contact-info{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .section-animate:first-child,
+    .section-animate:nth-child(2),
+    .section-animate:nth-child(3){
+        position: relative;
+        transform: translateY(0);
+        opacity: 1;
+        transition: all .7s ease;
+    }
+
+    .sidebar-transition{
+        transition: .5s ease-in-out;
+    }
+    .sidebar-active{
+        transform: translateX(0);
+    }
+    .burger, .sidebar{
+        transition: all .7s ease;
+        display: block;
+    }
+    .burger-translated{
+        right: calc(60% - 20px);
+    }
+    
+    .hero-container .img-wrapper{
+        display: none;
+    }
+    .hero-container .hero-text{
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero-container .hero-text #name{
+        font-size: 3.5rem;
+    }
+    .hero-container .hero-text #position{
+        font-size: 1.5rem;
+        margin: 1% 0;
+    }
+    .hero-tooltip{
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+        color: var(--color-text-grey);
+        text-transform: lowercase;
+        font-size: 1.25rem;
+        width: 100%;
+        text-align: center;
+    
+    }
+    .hero-container .hero-text .cta-container{
+        flex-flow: column;
+    }
+    .hero-container .hero-text .cta-container .cta{
+        margin: 1% 0;
+    }
+    .about-container .img-wrapper{
+        max-width: 60%;
+    }
+
+    #services-title{
+        margin: 5% auto 35% auto;
+    }
+    .services-container{
+        width: 90%;
+        right: 5%;
+    }
+    .services-container .service-card{
+        width: 33%;
+    }
+    .services-container .service-card h4{
+        font-size: 1.5rem;
+    }
+    .services-container .service-card p{
+        font-size: 0.9rem;
+    }
+    .services-bg{
+        padding-top: 40%;
+    }
+
+    .designs-container{
+        flex-flow: column;
+    }
+    .designs-container .design-card{
+        text-align: center;
+        margin: 5% 0;
+    }
+    .designs-container{
+        width: 95%;
+    }
+
+    
+    .projects-container{
+        margin: 40% auto 50% auto;
+    }
+    .card-row{
+        margin-top: 5%;
+        width: 100%;
+        flex-flow: column;
+        align-items: unset;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+    .card-row .project-card{
+        margin: 0;
+        height: auto;
+    }
+
+    .process-container{
+        flex-wrap: wrap;
+    }
+    .process-container .process-card{
+        width: 45%;
+        margin: 2.5%;
+        height: 350px;
+    }
+    .process-container .process-card:last-child{
+        width: 100%;
+    }
+
+    .twitter-container{
+        background-position: right;
+    }
+    .container-darken{
+        display: block;
+    }    
+    .twitter-container .twitter-content{
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .twitter-container .twitter-content p{
+        margin: 20px auto;
+        width: 100%;
+    }
+    .twitter-container .twitter-content a{
+        margin: 0 auto;
+    }
+
+    .contact-container{
+        flex-flow: column;
+    }
+    .contact-icon{
+        margin: 5% 0;
+    }
+    .contact-container .contact-info{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .contact-container .contact-info .btn-wrapper{
+        margin: 5% auto;
+    }
+}
+
+@media screen and (max-width: 678px){
+    .hero-container .hero-text #name{
+        font-size: 2.5rem;
+    }
+    .hero-container .hero-text #position{
+        font-size: 1rem;
+    }
+    .about-container .img-wrapper{
+        max-width: 70%;
+    }
+    .about-container .about-content #about-name{
+        font-size: 2.5rem;
+    }
+    .about-container .about-content #about-position{
+        font-size: 1.25rem
+    }
+
+    #services-title{
+        margin: 3% auto;
+    }
+    .services-container{
+        width: 90%;
+        margin: 5% auto;
+        flex-flow: column;
+        position: unset;
+    }
+    .services-container .service-card{
+        width: 100%;
+        height: 300px;
+        margin: 2.5% 0;
+    }
+    .services-container .service-card h4{
+        font-size: 1.5rem;
+    }
+    .services-container .service-card p{
+        font-size: 0.9rem;
+    }
+    .services-bg{
+        padding-top: 0;
+    }
+    .services-container .service-card:hover{
+        background: var(--color-accent-light);
+        transform: scale(1);
+    }
+
+    .designs-container .design-card{
+        width: 400px;
+        height: 400px;
+    }
+
+    .projects-container{
+        margin: 20% auto;
+    }
+    .process-container .process-card{
+        height: 400px;
+    }
+}
