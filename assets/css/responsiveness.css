@@ -319,11 +319,11 @@
         width: 100%;
         flex-flow: column;
         align-items: unset;
-        justify-content: space-between;
+        justify-content: flex-start;
         margin-left: 0;
     }
     .card-row .project-card{
-        margin: 0;
+        margin: 2.5% 0;
         height: auto;
     }
 
