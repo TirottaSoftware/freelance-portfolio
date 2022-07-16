@@ -111,9 +111,6 @@
     .section-container .section-title{
         font-size: 2rem;
     }
-    .section-container .section-title{
-        font-size: 2rem;
-    }
     .nav-links{
         display: none;
     }
@@ -381,6 +378,11 @@
     .hero-container .hero-text #position{
         font-size: 1rem;
     }
+
+    .section-container{
+        width: unset;
+    }
+
     .about-container .img-wrapper{
         max-width: 70%;
     }
@@ -420,8 +422,8 @@
     }
 
     .designs-container .design-card{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
 
     .projects-container{
