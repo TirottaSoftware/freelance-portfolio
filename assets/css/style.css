@@ -688,6 +688,13 @@ ul {
 .process-span{
     color: var(--color-accent-light);
 }
+.process-tooltip{
+    text-align: center;
+    width: 50%;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    color: var(--color-text-grey);
+}
 
 /* Twitter */
 
