@@ -495,13 +495,14 @@ ul {
     margin: 5% auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 .designs-container .design-card{
     width: 500px;
     height: 500px;
     border: 1px solid var(--color-accent-light);
-    margin: 0 2.5%;
+    margin: 2.5%;
     display: flex;
     flex-flow: column;
     position: relative;

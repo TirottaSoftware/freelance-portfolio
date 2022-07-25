@@ -74,7 +74,7 @@
         justify-content: space-between;
     }
     .designs-container .design-card{
-        margin: 0;
+        margin: 2.5% 0;
     }
     .designs-container, .projects-container{
         width: 90%;
@@ -162,10 +162,10 @@
     }
     
     .designs-container{
-        justify-content: space-between;
+        justify-content: center;
     }
     .designs-container .design-card{
-        margin: 0;
+        margin: 2.5%;
     }
     .designs-container{
         width: 95%;

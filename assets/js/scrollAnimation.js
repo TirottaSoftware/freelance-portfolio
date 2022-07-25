@@ -8,8 +8,6 @@ function revealSection() {
         const revealTop = sections[i].getBoundingClientRect().top;
         const revealPoint = 150;
 
-        console.log(revealTop);
-
         if (revealTop <= windowHeight - revealPoint) {
             sections[i].classList.add("section-active");
         } else {
