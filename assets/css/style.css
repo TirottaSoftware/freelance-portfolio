@@ -614,7 +614,9 @@ ul {
     background-image: url('../img/movie-app.jpeg');
 }
 #project-2{
-    background-image: url('../img/optihealth-desktop.PNG');
+    background-image: url('../img/optihealth-desktop.jpeg');
+    background-size: cover;
+    background-position: top;
 }
 
 .project-card .card-details{
