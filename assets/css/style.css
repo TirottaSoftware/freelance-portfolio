@@ -160,6 +160,19 @@ ul {
 .nav-links ul li a:hover{
     color: white
 }
+.nav-link-active{
+    color: white;
+    position: relative;
+}
+.nav-link-active::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: var(--color-accent-light);
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+}
 
 /* Navigation - Mobile */
 

@@ -1,0 +1,48 @@
+:root{
+    --color-primary: #222A35;
+    --color-secondary: #1C222E;
+    --color-accent-light: #39AFC9;
+    --color-accent-light-opacity: rgba(57, 175, 201, 0.3);
+    --color-accent-dark: #29313C;
+    --color-text-grey: #636971;
+
+    --font-primary: 'Montserrat', sans-serif;
+}
+
+.about-me-container{
+    display: flex;
+    width: 65%;
+    margin-left: 35%;
+    margin-top: 10%;
+    position: relative;
+    align-items: center;
+}
+
+.img-wrapper{
+    width: 400px;
+    position: absolute;
+    left: -15%;
+    bottom: 15%;
+}
+.img-wrapper img{
+    width: 100%;
+}
+.about-me-container .about-me-body{
+    padding: 5%;
+    padding-left: 25%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 600px;
+    background: var(--color-accent-light);
+}
+.about-me-body h2{
+    font-size: 2.5rem;
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+}
+.about-me-body p{
+    width: 80%;
+    margin: 20px 0;
+    font-size: 1.25rem;
+}
