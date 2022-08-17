@@ -9,6 +9,39 @@
     --font-primary: 'Montserrat', sans-serif;
 }
 
+.navbar-about{
+    position: absolute;
+    background: transparent;
+}
+.about-hero{
+    background-image: url("../img/about-me-hero.png");
+    background-size: cover;
+    background-position: 75% 25%;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-hero::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(34,42,54);
+    background: linear-gradient(180deg, rgba(34,42,54,1) 0%, rgba(34,42,54,1) 0%, rgba(28,35,46,0.35) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.about-hero h1{
+    font-size: 5rem;
+    color: white;
+    z-index: 1;
+}
+.about-hero h1 span{
+    color: var(--color-accent-light);
+}
+
 .about-me-container{
     display: flex;
     width: 65%;
