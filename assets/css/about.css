@@ -7,6 +7,8 @@
     --color-text-grey: #636971;
 
     --font-primary: 'Montserrat', sans-serif;
+    --font-title: 'Nunito Sans', sans-serif;
+    --font-main: 'Merriweather', serif;
 }
 
 .navbar-about{
@@ -37,6 +39,8 @@
     font-size: 5rem;
     color: white;
     z-index: 1;
+    font-family: var(--font-title);
+    font-weight: 900;
 }
 .about-hero h1 span{
     color: var(--color-accent-light);
@@ -46,7 +50,7 @@
     display: flex;
     width: 65%;
     margin-left: 35%;
-    margin-top: 10%;
+    margin: 10% 0 10% 35%;
     position: relative;
     align-items: center;
 }
@@ -70,6 +74,8 @@
     background: var(--color-accent-light);
 }
 .about-me-body h2{
+    font-family: var(--font-title);
+    font-weight: 700;
     font-size: 2.5rem;
     color: var(--color-secondary);
     margin-bottom: 15px;
@@ -77,5 +83,33 @@
 .about-me-body p{
     width: 80%;
     margin: 20px 0;
+    font-family: var(--font-main);
     font-size: 1.25rem;
+}
+
+/* Why do you need a website? */
+
+.why-container{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.why-container .why-card{
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+}
+.why-card h3{
+    font-size: 1.75rem;
+    font-family: var(--font-title);
+    margin: 15px 0;
+}
+.why-card p{
+    font-size: 1.1rem;
+    font-family: var(--font-main);
+    color: #afafaf;
 }
