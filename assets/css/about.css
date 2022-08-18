@@ -103,13 +103,48 @@
     align-items: center;
     text-align: center;
 }
-.why-card h3{
+.card-heading-default{
     font-size: 1.75rem;
     font-family: var(--font-title);
     margin: 15px 0;
 }
-.why-card p{
+.card-body-text-default{
     font-size: 1.1rem;
     font-family: var(--font-main);
     color: #afafaf;
+}
+.why-card ion-icon{
+    color: var(--color-accent-light);
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+/* Benefits */
+
+.benefits-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5% auto;
+}
+.benefits-container .benefit-card{
+    width: 45%;
+    padding: 3.5%;
+    margin: 2.5% 0;
+    border: 2.5px solid var(--color-secondary);
+    box-shadow: 5px 5px 5px 0 var(--color-secondary);
+    position: relative;
+}
+.benefit-card .card-heading-default{
+    margin-top: 0;
+}
+.benefit-card ion-icon{
+    color: var(--color-accent-light);
+    position: absolute;
+    background: var(--color-primary);
+    top: -20px;
+    left: -20px;
+    font-size: 3rem;
 }
