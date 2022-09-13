@@ -23,6 +23,11 @@
     .why-container{
         width: 100%;
     }
+
+    .work-hero-wrapper{
+        right: 7.5%;
+        width: 600px;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -115,6 +120,14 @@
     }
     .card-body-text-default{
         font-size: 1rem;
+    }
+
+    .work-hero-container h1{
+        font-size: 2.75rem;
+    }
+    .work-hero-wrapper{
+        right: 0;
+        width: 600px;
     }
 }
 
@@ -275,6 +288,17 @@
 
     .benefits-container .benefit-card{
         margin: 5% 0;
+    }
+
+    .work-hero-wrapper{
+        width: 500px;
+        right: 0;
+    }
+    .work-hero-container h1{
+        font-size: 2rem;
+    }
+    .work-hero-container p, .recommended-container label{
+        font-size: 1rem;
     }
 }
 
@@ -476,6 +500,26 @@
     .footer-links .logo img, .footer-links .logo{
         width: 100px;
     }
+
+    .work-hero{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .work-hero-wrapper{
+        width: 400px;
+        margin: 25px auto;
+        position: relative;
+    }
+    .work-hero-container{
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+    }
+    .work-hero-container p{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 678px){
@@ -536,6 +580,10 @@
     .projects-container{
         margin: 20% auto;
     }
+
+    .process-container{
+        width: 95%;
+    }
     .process-container .process-card{
         height: 400px;
     }
@@ -589,5 +637,16 @@
     }
     .footer-container p{
         text-align: center;
+    }
+
+    .work-hero-wrapper{
+        width: 300px;
+    }
+    .recommended-container label{
+        font-size: .8rem;
+    }
+    .recommended-container .recommended-circle{
+        width: 40px;
+        height: 40px;
     }
 }
