@@ -15,6 +15,14 @@
         width: 80%;
         right: 10%;
     }
+
+    .about-me-container .about-me-body{
+        height: 550px;
+    }
+    
+    .why-container{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -88,6 +96,25 @@
     }
     .contact-container{
         width: 80%;
+    }
+
+    .about-me-container{
+        width: 75%;
+        margin-left: 25%;
+    }
+    .about-me-container .img-wrapper{
+        right: calc(75% - 175px);
+    }
+
+    .why-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .card-heading-default{
+        font-size: 1.5rem;
+    }
+    .card-body-text-default{
+        font-size: 1rem;
     }
 }
 
@@ -213,6 +240,41 @@
 
     .contact-container .contact-info{
         width: 60%;
+    }
+
+    .about-me-container{
+        width: 80%;
+        margin-left: 20%;
+
+    }
+    .about-me-container .img-wrapper{
+        right: calc(80% - 150px);
+        width: 300px;
+    }
+    .about-me-container .about-me-body{
+        height: 500px;
+    }
+    .about-me-body h2{
+        margin-bottom: 0;
+    }
+    .about-me-body p{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+
+    .why-container{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .card-heading-default{
+        font-size: 1.5rem;
+    }
+    .card-body-text-default{
+        font-size: 1rem;
+    }
+
+    .benefits-container .benefit-card{
+        margin: 5% 0;
     }
 }
 
@@ -374,6 +436,46 @@
     .contact-container .contact-info .btn-wrapper{
         margin: 5% auto;
     }
+
+    .about-me-container{
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .about-me-container .about-me-body{
+        padding: 0;
+        height: 450px;
+    }
+    .about-me-body p{
+        width: 90%;
+        margin: 20px auto;
+    }
+    .about-me-container .img-wrapper{
+        display: none;
+    }
+
+    .why-container{
+        flex-flow: column;
+
+    }
+    .why-container .why-card{
+        width: 50%;
+        margin: 25px 0;
+    }
+
+    .benefits-container .benefit-card{
+        padding: 5%;
+    }
+
+    .footer-links .logo{
+        margin: 0 10px;
+    }
+    .footer-links .logo img, .footer-links .logo{
+        width: 100px;
+    }
 }
 
 @media screen and (max-width: 678px){
@@ -436,5 +538,56 @@
     }
     .process-container .process-card{
         height: 400px;
+    }
+
+    .about-hero{
+        height: 50%;
+        
+    }
+    .about-hero h1{
+        font-size: 4rem;
+    }
+    .about-me-body h2{
+        font-size: 2rem;
+    }
+    .about-me-body p{
+        font-size: 1rem;
+        margin: 10px auto;
+    }
+    .about-me-container .about-me-body{
+        height: unset;
+        padding: 25px 10px;
+    }
+    
+    .benefits-container{
+        flex-flow: column;
+    }
+    .benefits-container .benefit-card{
+        width: 90%;
+        padding: 10%;
+    }
+    .section-container .section-title{
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .logo-mobile{
+        display: block;
+    }
+    .logo-mobile img{
+        width: 150px;
+        margin: 20px 0;
+    }
+    .footer-links, .footer-links ul{
+        flex-flow: column;
+    }
+    .footer-links ul li{
+        margin: 10px 0;
+    }
+    .footer-links .logo{
+        display: none;
+    }
+    .footer-container p{
+        text-align: center;
     }
 }

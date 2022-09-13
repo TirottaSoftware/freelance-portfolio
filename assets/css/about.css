@@ -10,6 +10,9 @@
     --font-title: 'Nunito Sans', sans-serif;
     --font-main: 'Merriweather', serif;
 }
+.section-container{
+    margin: 10% auto;
+}
 
 .navbar-about{
     position: absolute;
@@ -46,36 +49,36 @@
     color: var(--color-accent-light);
 }
 
+#about-about{
+    position: relative;
+}
 .about-me-container{
     display: flex;
     width: 65%;
-    margin-left: 35%;
     margin: 10% 0 10% 35%;
-    position: relative;
     align-items: center;
 }
 
 .img-wrapper{
-    width: 400px;
+    width: 350px;
     position: absolute;
-    left: -15%;
-    bottom: 15%;
+    right: calc(65% - 175px);
+    bottom: 20%;
 }
 .img-wrapper img{
     width: 100%;
 }
 .about-me-container .about-me-body{
-    padding: 5%;
-    padding-left: 25%;
     display: flex;
     flex-flow: column;
     justify-content: center;
+    padding-left: 25%;
     height: 600px;
     background: var(--color-accent-light);
 }
 .about-me-body h2{
     font-family: var(--font-title);
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2.5rem;
     color: var(--color-secondary);
     margin-bottom: 15px;
@@ -89,12 +92,20 @@
 
 /* Why do you need a website? */
 
+#why{
+    background: var(--color-secondary);
+}
+#why .section-container{
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
 .why-container{
     width: 80%;
-    margin: 5% auto;
+    margin: 0 auto 5% auto;
     display: flex;
+    padding-bottom: 5%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .why-container .why-card{
     width: 30%;
@@ -144,7 +155,7 @@
     color: var(--color-accent-light);
     position: absolute;
     background: var(--color-primary);
-    top: -20px;
-    left: -20px;
-    font-size: 3rem;
+    top: -30px;
+    left: -30px;
+    font-size: 4rem;
 }
