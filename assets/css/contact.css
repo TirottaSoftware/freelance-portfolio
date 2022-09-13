@@ -1,0 +1,114 @@
+:root{
+    --color-primary: #222A35;
+    --color-secondary: #1C222E;
+    --color-accent-light: #39AFC9;
+    --color-accent-light-opacity: rgba(57, 175, 201, 0.3);
+    --color-accent-dark: #29313C;
+    --color-text-grey: #636971;
+
+    --font-primary: 'Montserrat', sans-serif;
+    --font-title: 'Nunito Sans', sans-serif;
+    --font-main: 'Merriweather', serif;
+}
+
+.contact-section{
+    font-family: var(--font-main);
+    display: flex;
+    width: 70%;
+    margin: 2.5% auto;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.social-container{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+}
+.social-container .social-card{
+    padding: 5%;
+    margin: 2.5% 0;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    border: 3px solid var(--color-secondary);
+    box-shadow: 5px 5px 5px 0 var(--color-secondary);
+}
+.social-card .card-body{
+    margin-left: 25px;
+    font-size: 1.15rem;
+}
+.card-body p{
+    margin-bottom: 10px;
+}
+.social-card ion-icon{
+    width: 125px;
+    height: 125px;
+}
+.social-card .card-body a{
+    color: var(--color-accent-light);
+    text-decoration: underline;
+    font-family: var(--font-primary);
+    font-weight: 00;
+}
+
+.contact-form{
+    width: 60%;
+}
+.contact-form h1{
+    font-family: var(--font-title);
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--color-accent-light);
+}
+.contact-form p{
+    width: 90%;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+.contact-form form{
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    margin-top: 50px;
+}
+.contact-form form input[type="text"], .contact-form form textarea{
+    background: transparent;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: var(--font-primary);
+    margin: 10px 0;
+    color: white;
+    border-bottom: 2px solid var(--color-accent-light);
+    padding-bottom: 5px;
+}
+textarea::-webkit-scrollbar{
+    width: 10px;
+}
+textarea::-webkit-scrollbar-thumb {
+    background-color: var(--color-accent-light);
+    outline: 1px solid var(--color-secondary);
+    border-radius: 10px;
+  }
+input::placeholder, textarea::placeholder{
+    font-family: var(--font-primary);
+    color: var(--color-accent-light);
+}
+.contact-form form input[type="submit"]{
+    width: 40%;
+    padding: 15px 0;
+    cursor: pointer;
+    color: white;
+    font-family: var(--font-primary);
+    background: var(--color-accent-light);
+    margin-top: 20px;
+    border: 1px solid var(--color-accent-light);
+    font-size: 1.25rem;
+    transition: all .25s ease-out;
+}
+.contact-form form input[type="submit"]:hover{
+    background: var(--color-accent-light-opacity);
+}

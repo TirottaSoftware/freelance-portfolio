@@ -28,6 +28,13 @@
         right: 7.5%;
         width: 600px;
     }
+
+    .contact-section{
+        width: 80%;
+    }
+    .contact-form p, .contact-form form{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -129,6 +136,22 @@
         right: 0;
         width: 600px;
     }
+    
+    .contact-section{
+        width: 90%;
+    }
+    .contact-form h1{
+        font-size: 2.75rem;
+    }
+    .contact-form p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .contact-form form{
+        margin-top: 25px;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 1200px){
@@ -153,6 +176,9 @@
     }
     .nav-links{
         display: none;
+    }
+    .navbar-contact .nav-links{
+        display: flex;
     }
     .about-container{
         flex-flow: column-reverse;
@@ -299,6 +325,24 @@
     }
     .work-hero-container p, .recommended-container label{
         font-size: 1rem;
+    }
+
+    .contact-section{
+        width: 90%;
+    }
+    .contact-form h1{
+        font-size: 2.75rem;
+    }
+    .contact-form p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .contact-form form{
+        margin-top: 25px;
+        width: 100%;
+    }
+    .contact-form form input[type="submit"]{
+        width: 50%;
     }
 }
 
@@ -520,6 +564,33 @@
     .work-hero-container p{
         width: 100%;
     }
+
+    .navbar-contact .nav-links{
+        display: none;
+    }
+    .contact-section{
+        flex-flow: column;
+        margin: 0 auto;
+    }
+    .contact-section .social-container{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .social-container .social-card{
+        width: 100%;
+        margin: 5% 0;
+    }
+    .contact-form{
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-form h1{
+        font-size: 2.5rem;
+    }
+    .contact-form form input[type="submit"]{
+        margin: 15px auto;
+    }
 }
 
 @media screen and (max-width: 678px){
@@ -648,5 +719,18 @@
     .recommended-container .recommended-circle{
         width: 40px;
         height: 40px;
+    }
+    
+    .contact-section .social-container{
+        width: 90%;
+    }
+    .contact-form h1{
+        font-size: 2rem;
+    }
+    .contact-form p{
+        font-size: 1rem;
+    }
+    .contact-form form input[type="submit"]{
+        width: 60%;
     }
 }
