@@ -387,10 +387,33 @@ ul {
     margin-bottom: 2.5%;
 }
 
+/* Hero Bottom */
+
+.hero-bottom-container{
+    width: 100%;
+    background: var(--color-secondary);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-bottom-container .company-card{
+    width: 200px;
+    margin: 25px 50px;
+}
+.company-card img{
+    width: 100%;
+}
+.company-card svg{
+    width: 80%;
+    padding: 0 10%;
+    margin: 0 10%;
+}
+
 /* About Section */
 
 #about{
-    background: var(--color-secondary);
+    background: var(--color-primary);
     padding: 2.5% 0;
 }
 .about-container{
@@ -465,7 +488,7 @@ ul {
 }
 .services-bg{
     padding-top: 20%;
-    background: var(--color-primary);
+    background: var(--color-secondary);
     width: 100%;
     position: relative;
 }
@@ -509,6 +532,9 @@ ul {
 
 /* Templates & Designs */
 
+#designs{
+    background: var(--color-secondary);
+}
 #designs, #twitter{
     padding-top: 3%;
 }

@@ -402,6 +402,11 @@
     .hero-container .hero-text .cta-container .cta{
         margin: 1% 0;
     }
+
+    .hero-bottom-container .company-card{
+        width: 150px;
+    }
+
     .about-container .img-wrapper{
         max-width: 60%;
     }
@@ -603,6 +608,11 @@
 
     .section-container{
         width: unset;
+    }
+
+    .hero-bottom-container .company-card{
+        width: 100px;
+        margin: 10px 25px;
     }
 
     .about-container .img-wrapper{
