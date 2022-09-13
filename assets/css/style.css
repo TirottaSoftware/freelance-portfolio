@@ -32,6 +32,24 @@ a {
     text-decoration: none;
     color: unset;
 }
+.cta{
+    width: 250px;
+    background: var(--color-accent-light);
+    border: 1px solid var(--color-accent-light);
+    transition: all .5s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.cta a{
+    font-size: 1.25rem;
+    color: white;
+    font-family: var(--font-primary);
+}
+.cta:hover{
+    background: var(--color-accent-light-opacity);
+}
 
 ul {
     list-style: none;
@@ -344,7 +362,7 @@ ul {
     justify-content: space-between;
     margin: 25px 0;
 }
-.hero-container .hero-text .cta-container .cta{
+.hero-container .hero-text .cta-container .hero-cta{
     background: var(--color-accent-light);
     width: 47.5%;
     height: 65px;
@@ -410,10 +428,48 @@ ul {
     margin: 0 10%;
 }
 
+/* Testimonials */
+
+.testimonial-container{
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: var(--font-main);
+}
+.testimonial-card{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: 2.5%;
+    background: var(--color-accent-dark);
+}
+.testimonial-card .img-wrapper{
+    margin: 10% 5%;
+}
+.testimonial-card .img-wrapper img{
+    border-radius: 50%;
+}
+.testimonial-card-body p{
+    width: 80%;
+    font-size: 1.1rem;
+}
+.testimonial-card-body h3{
+    font-family: var(--font-title);
+    font-weight: 900;
+    margin-top: 10px;
+}
+.testimonial-company{
+    color: var(--color-accent-light);
+    font-weight: 700;
+    font-family: var(--font-primary);
+}
+
 /* About Section */
 
 #about{
-    background: var(--color-primary);
+    background: var(--color-secondary);
     padding: 2.5% 0;
 }
 .about-container{
@@ -529,6 +585,12 @@ ul {
     font-weight: 400;
     margin: 5% auto
 }
+.services-bg .cta{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /* Templates & Designs */
 
@@ -600,6 +662,9 @@ ul {
 
 /* Projects */
 
+#projects{
+    padding-top: 5%;
+}
 .projects-container{
     width: 70%;
     margin: 5% auto;
@@ -694,6 +759,9 @@ ul {
 }
 .project-card:hover > .card-details{
     opacity: 1;
+}
+#projects .cta{
+    margin-bottom: 75px;
 }
 
 /* Work Process */
@@ -810,6 +878,7 @@ ul {
 .contact-container{
     width: 70%;
     margin: 10% auto;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
