@@ -259,7 +259,7 @@ ul {
 
 .hero-container{
     width: 100%;
-    padding: 15% 0 15% 0;
+    padding: 10% 0 15% 0;
     z-index: 1;
     overflow: hidden;
     position: relative;
@@ -344,14 +344,16 @@ ul {
     margin-left: 50%;
 }
 .hero-container .hero-text #greeting{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    color: var(--color-accent-light);
+    font-weight: 900;
 }
 .hero-container .hero-text #name{
-    font-size: 4.25rem;
+    font-size: 4rem;
     font-weight: 700;
 }
 .hero-container .hero-text #position{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin: 3% 0 0 0;
 }
@@ -755,7 +757,7 @@ ul {
     line-height: 50px;
 }
 .project-card:hover{
-    padding: 5%;
+    padding: 1%;
 }
 .project-card:hover > .card-details{
     opacity: 1;
