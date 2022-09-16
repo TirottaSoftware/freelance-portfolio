@@ -175,9 +175,6 @@
     .section-container .section-title{
         font-size: 2rem;
     }
-    .nav-links{
-        display: none;
-    }
     .navbar-contact .nav-links{
         display: flex;
     }
@@ -363,6 +360,9 @@
     .sidebar-active{
         transform: translateX(0);
     }
+    .nav-links{
+        display: none;
+    }
     .burger, .sidebar{
         transition: all .7s ease;
         display: block;
@@ -445,7 +445,7 @@
 
     
     .projects-container{
-        margin: 40% auto 50% auto;
+        margin: 10% auto;
     }
     .card-row{
         margin-top: 5%;
@@ -629,18 +629,23 @@
         margin: 10px 25px;
     }
 
+    .about-container{
+        width: 80%;
+    }
     .about-container .img-wrapper{
         max-width: 70%;
     }
     .about-container .about-content #about-name{
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 15px;
     }
     .about-container .about-content #about-position{
         font-size: 1.25rem
     }
 
     #services-title{
-        margin: 3% auto;
+        margin: 5% auto;
+        margin-top: 10%;
     }
     .services-container{
         width: 90%;
@@ -660,7 +665,7 @@
         font-size: 0.9rem;
     }
     .services-bg{
-        padding-top: 0;
+        padding-top: 10%;
     }
     .services-container .service-card:hover{
         background: var(--color-accent-light);
@@ -673,7 +678,7 @@
     }
 
     .projects-container{
-        margin: 20% auto;
+        margin: 10% auto;
     }
 
     .process-container{
@@ -700,6 +705,9 @@
     .about-me-container .about-me-body{
         height: unset;
         padding: 25px 10px;
+    }
+    .btn-wrapper{
+        margin-top: 15%;
     }
     
     .benefits-container{
@@ -756,6 +764,9 @@
     }
     .contact-form form input[type="submit"]{
         width: 60%;
+    }
+    .contact-container .contact-info .btn-wrapper{
+        width: 90%;
     }
 
     .testimonial-card{
