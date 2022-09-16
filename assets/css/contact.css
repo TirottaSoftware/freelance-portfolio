@@ -80,6 +80,7 @@
     border: none;
     outline: none;
     resize: none;
+    border-radius: 0;
     font-family: var(--font-primary);
     margin: 10px 0;
     color: white;
@@ -98,8 +99,9 @@ input::placeholder, textarea::placeholder{
     font-family: var(--font-primary);
     color: var(--color-accent-light);
 }
-.contact-form form input[type="submit"]{
+.contact-form form button[type="submit"]{
     -webkit-appearance: none;
+    border-radius: 0;
     width: 40%;
     padding: 15px 0;
     cursor: pointer;
