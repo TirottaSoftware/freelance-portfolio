@@ -84,10 +84,15 @@
             <h1>Tell Me About Your Idea</h1>
             <p>Enough talking! Get ready to stand out and turn your website visitors into paying clients. Send me an email and I’ll get back to you ASAP!
               </p>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Subject">
-                <textarea rows="4" placeholder="Message"></textarea>
+            <form action="https://formsubmit.co/c37c24b98cdd8ae9aa94106d604866e8 " method="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="_subject" placeholder="Subject">
+                <input
+                type="hidden"
+                name="_next"
+                value="https://cristiantirotta.com/"
+              />
+                <textarea name="message" rows="4" placeholder="Message" required></textarea>
                 <input type="submit" value="Send Message">
             </form>
         </div>

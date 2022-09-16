@@ -73,7 +73,7 @@
     flex-flow: column;
     margin-top: 50px;
 }
-.contact-form form input[type="text"], .contact-form form textarea{
+.contact-form form input[type="text"], .contact-form form input[type="email"], .contact-form form textarea{
     background: transparent;
     font-size: 1.5rem;
     border: none;
