@@ -74,6 +74,7 @@
     margin-top: 50px;
 }
 .contact-form form input[type="text"], .contact-form form input[type="email"], .contact-form form textarea{
+    -webkit-appearance: none;
     background: transparent;
     font-size: 1.5rem;
     border: none;
@@ -98,6 +99,7 @@ input::placeholder, textarea::placeholder{
     color: var(--color-accent-light);
 }
 .contact-form form input[type="submit"]{
+    -webkit-appearance: none;
     width: 40%;
     padding: 15px 0;
     cursor: pointer;
