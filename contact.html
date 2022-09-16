@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://assets.calendly.com/assets/external/widget.css"
+  rel="stylesheet"
+/>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Libre+Caslon+Display&family=Montserrat:wght@400;600;700&family=Merriweather:wght@300&family=Nunito+Sans:wght@700;900&family=Roboto:wght@900&display=swap" rel="stylesheet">
     <title>Get In Touch</title>
   </head>
@@ -20,7 +24,7 @@
       <ion-icon class="btn-backtotop" name="arrow-up-outline"></ion-icon>
       <nav class="navbar navbar-contact">
         <div class="navbar-container">
-          <a href="#" class="logo no-highlight">
+          <a href="index.html" class="logo no-highlight">
             <img src="./assets/img/logo/ct-logo-transparent.png" alt="" />
           </a>
           <div class="nav-links">
@@ -69,14 +73,16 @@
                 <ion-icon name="logo-twitter"></ion-icon>
                 <div class="card-body">
                     <p>Don't hesitate share your thoughts via Twitter DM.</p>
-                    <a href="">Send DM</a>
+                    <a href="https://twitter.com/TirottaSoftware" target="_blank">Send DM</a>
                 </div>
             </div>
             <div class="social-card">
                 <ion-icon name="calendar-outline"></ion-icon>
                 <div class="card-body">
                     <p>Schedule a one-on-one meeting with me</p>
-                    <a href="">Schedule</a>
+                    <a href=""
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cristiantirotta?hide_landing_page_details=1&hide_gdpr_banner=1&text_color=000000&primary_color=63d1f4'});return false;"
+                    >Schedule</a>
                 </div>
             </div>
         </div>
