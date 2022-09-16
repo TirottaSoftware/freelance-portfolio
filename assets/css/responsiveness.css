@@ -339,7 +339,7 @@
         margin-top: 25px;
         width: 100%;
     }
-    .contact-form form input[type="submit"]{
+    .contact-form form button[type="submit"]{
         width: 50%;
     }
 }
@@ -594,7 +594,7 @@
     .contact-form h1{
         font-size: 2.5rem;
     }
-    .contact-form form input[type="submit"]{
+    .contact-form form button[type="submit"]{
         margin: 15px auto;
     }
 
@@ -762,7 +762,7 @@
     .contact-form p{
         font-size: 1rem;
     }
-    .contact-form form input[type="submit"]{
+    .contact-form form button[type="submit"]{
         width: 60%;
     }
     .contact-container .contact-info .btn-wrapper{

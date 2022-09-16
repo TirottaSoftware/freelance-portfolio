@@ -99,7 +99,7 @@ input::placeholder, textarea::placeholder{
     font-family: var(--font-primary);
     color: var(--color-accent-light);
 }
-.contact-form form input[type="submit"]{
+.contact-form form button[type="submit"]{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
