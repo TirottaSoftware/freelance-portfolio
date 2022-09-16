@@ -99,8 +99,10 @@ input::placeholder, textarea::placeholder{
     font-family: var(--font-primary);
     color: var(--color-accent-light);
 }
-.contact-form form button[type="submit"]{
+.contact-form form input[type="submit"]{
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border-radius: 0;
     width: 40%;
     padding: 15px 0;
