@@ -50,6 +50,10 @@
     align-items: center;
     position: relative;
 }
+.cirlces-container{
+    display: flex;
+    align-items: center;
+}
 .recommended-container .recommended-circle{
     background: white;
     margin-right: -20px;

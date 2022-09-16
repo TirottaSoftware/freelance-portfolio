@@ -746,11 +746,15 @@
         width: 300px;
     }
     .recommended-container label{
-        font-size: .8rem;
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .recommended-container{
+        flex-flow: column;
     }
     .recommended-container .recommended-circle{
-        width: 40px;
-        height: 40px;
+        /* width: 40px;
+        height: 40px; */
     }
     
     .contact-section .social-container{
