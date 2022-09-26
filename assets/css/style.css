@@ -545,7 +545,11 @@ ul {
     margin: 5% auto 15% auto;
 }
 .services-bg{
-    padding-top: 20%;
+    padding-top: 15%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
     background: var(--color-secondary);
     width: 100%;
     position: relative;
@@ -588,10 +592,7 @@ ul {
     margin: 5% auto
 }
 .services-bg .cta{
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 5% auto;
 }
 
 /* Templates & Designs */
@@ -984,4 +985,57 @@ ul {
 }
 .logo-mobile{
     display: none;
+}
+
+/* Most Recent Project */
+
+#new-project{
+    padding-top: 10%;
+}
+.recent-project-container{
+    position: relative;
+    width: 70%;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #1C232E;
+    box-shadow: 5px 5px 5px 0px #1C232E;
+}
+.recent-project-container .img-new{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: -50px;
+}
+.recent-project-container .img-new img{
+    width: 100%;
+}
+.recent-project-container .img-wrapper{
+    width: 45%;
+}
+.recent-project-container .img-wrapper img{
+    width: 100%;
+}
+.recent-project-container .new-project-description{
+    width: 50%;
+    margin: 0 2.5%;
+}
+.recent-project-container .new-project-description h2{
+    font-size: 2rem;
+    font-family: var(--font-title);
+    color: var(--color-accent-light);
+    font-weight: 400;
+}
+.recent-project-container .new-project-description p{
+    font-size: 1.25rem;
+    font-family: var(--font-primary);
+    margin: 15px 0;
+    color: var(--color-text-grey);
+}
+.recent-project-container .new-project-description a{
+    color: var(--color-accent-light);
+    text-decoration: underline;
+    font-size: 1.25rem;
 }

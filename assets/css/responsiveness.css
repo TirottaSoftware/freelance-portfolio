@@ -35,7 +35,13 @@
     .contact-form p, .contact-form form{
         width: 100%;
     }
-
+    
+    .recent-project-container{
+        padding: 1%;
+    }
+    #services-title{
+        padding-bottom: 2.5%;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -153,6 +159,15 @@
         width: 100%;
     }
 
+    .recent-project-container{
+        width: 80%;
+    }
+    .recent-project-container .new-project-description h2{
+        font-size: 1.75rem;
+    }
+    .recent-project-container .new-project-description p, .recent-project-container .new-project-description a{
+        font-size: 1.15rem;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -220,9 +235,6 @@
     }
     .services-container .service-card p{
         font-size: 0.9rem;
-    }
-    .services-bg{
-        padding-top: 30%;
     }
     
     .designs-container{
@@ -342,6 +354,18 @@
     .contact-form form button[type="submit"]{
         width: 50%;
     }
+
+    .recent-project-container{
+        flex-flow: column;
+        align-items: center;
+    }
+    .recent-project-container .img-wrapper{
+        width: 65%;
+    }
+    .recent-project-container .new-project-description{
+        width: 90%;
+        margin: 50px auto;
+    }
 }
 
 @media screen and (max-width: 991px){
@@ -427,9 +451,6 @@
     }
     .services-container .service-card p{
         font-size: 0.9rem;
-    }
-    .services-bg{
-        padding-top: 40%;
     }
 
     .designs-container{
@@ -608,7 +629,8 @@
     }
 
     .services-bg .cta{
-        bottom: 30px;
+        margin-top: 100px;
+        margin-bottom: 10%;
     }
 }
 
@@ -752,9 +774,8 @@
     .recommended-container{
         flex-flow: column;
     }
-    .recommended-container .recommended-circle{
-        /* width: 40px;
-        height: 40px; */
+    .services-bg .cta{
+        margin: 5% auto;
     }
     
     .contact-section .social-container{
@@ -788,5 +809,15 @@
     
     .services-bg{
         padding-bottom: 20%;
+    }
+
+    .recent-project-container{
+        width: 90%;
+    }
+    .img-new{
+        display: none;
+    }
+    .recent-project-container .img-wrapper{
+        width: 100%;
     }
 }
