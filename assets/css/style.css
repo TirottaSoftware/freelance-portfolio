@@ -730,9 +730,9 @@ ul {
     background-image: url('../img/movie-app.jpeg');
 }
 #project-2{
-    background-image: url('../img/optihealth-desktop.jpeg');
+    background-image: url('../img/trtoclock-hero.JPG');
     background-size: cover;
-    background-position: top;
+    background-position: 20% 80%;
 }
 
 .project-card .card-details{
