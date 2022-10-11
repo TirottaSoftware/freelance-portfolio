@@ -11,13 +11,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Libre+Caslon+Display&family=Montserrat:wght@400;600;700&family=Merriweather:wght@300&family=Nunito+Sans:wght@700;900&family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <title>My Work</title>
+    <title>Portfolio | Cristian Tirotta</title>
   </head>
   <body>
     <div class="loading-spinner">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      <ion-icon class="btn-backtotop" name="arrow-up-outline"></ion-icon>
+      <ion-icon class="btn-backtotop" title="Back To Top" name="arrow-up-outline"></ion-icon>
       <nav class="navbar navbar-work">
         <div class="navbar-container">
           <a href="index.html" class="logo no-highlight">
@@ -26,16 +26,16 @@
           <div class="nav-links">
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <a href="index.html" title="Home">Home</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="about.html" title="About Me">About</a>
               </li>
               <li>
-                <a href="#" class="nav-link-active">Work</a>
+                <a href="#" class="nav-link-active" title="My Work">Work</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" title="Get In Touch">Contact</a>
               </li>
             </ul>
           </div>
@@ -47,16 +47,16 @@
           <div class="sidebar-links">
             <ul>
               <li>
-                <a href="index.html">Home</a>
+                <a href="index.html" title="Home">Home</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a href="about.html" title="About Me">About</a>
               </li>
               <li>
-                <a href="#">Work</a>
+                <a href="#" title="My Work">Work</a>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" title="Get In Touch">Contact</a>
               </li>
             </ul>
           </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="service-card">
               <h4>Website Redesign</h4>
-              <p>Feel like something’s hurting your online engagement? Chances are, your website UI needs an upgrade. Let me provide that upgrade by creating a resemblant Website Design made just for your business.</p>
+              <p>Feel like something’s hurting your online engagement? Chances are, your website UI needs an upgrade. Let me provide that upgrade by creating a resembling Website Design made just for your business.</p>
               <ion-icon name="color-palette-outline"></ion-icon>
             </div>
           </div>
@@ -221,6 +221,42 @@
             <ion-icon name="cash-outline"></ion-icon>
           </div>
         </div>
+        <button class="btn-popup">What does the full package include?</button>
+        <div class="popup">
+
+          <!-- Modal content -->
+          <div class="popup-content">
+            <h1>What Does The Website Include?</h1>
+            <div class="package-container">
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Multi-page SEO</p>
+              </div>
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Domain + Personal Email Box to it</p>
+              </div>
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Unique & Resembling Website made for your business</p>
+              </div>
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Social Media Synchronization</p>
+              </div>
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Monthly Website Maintenance & Feedback</p>
+              </div>
+              <div class="package-row">
+            <img src="./assets/img/svg/check.svg" alt="check">
+            <p>Logo Design (if needed)</p>
+              </div>
+            </div>
+            <button class="popup-close">Close</button>
+          </div>
+        
+        </div>
       </section>
   </body>
   <footer>
@@ -231,21 +267,21 @@
       <div class="footer-links">
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" title="Home">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="about.html" title="About Me">About</a>
           </li>
         </ul>
       <a href="" class="logo">
-        <img src="./assets/img/logo/ct-logo-initials.png" alt="">
+        <img src="./assets/img/logo/ct-logo-initials.png" title="Home" alt="">
       </a>
           <ul>
             <li>
-              <a href="#">Work</a>
+              <a href="#" title="Work">Work</a>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <a href="contact.html" title="Get In Touch">Contact</a>
             </li>
           </ul>
         </div>
@@ -267,3 +303,4 @@
 <script src="./assets/js/backToTop.js"></script>
 <script src="./assets/js/pageLoad.js"></script>
 <script src="./assets/js/scrollAnimation.js"></script>
+<script src="./assets/js/popup.js"></script>

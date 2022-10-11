@@ -42,6 +42,7 @@
     #services-title{
         padding-bottom: 2.5%;
     }
+    
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -632,6 +633,18 @@
         margin-top: 100px;
         margin-bottom: 10%;
     }
+
+    .popup-content h1{
+        margin-top: 25px;
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+    .package-container .package-row{
+      margin: 20px;
+    }
+    .package-container .package-row p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 678px){
@@ -819,5 +832,11 @@
     }
     .recent-project-container .img-wrapper{
         width: 100%;
+    }
+    
+    .popup-close {
+        width: 150px; 
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 }
