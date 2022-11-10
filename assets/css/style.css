@@ -728,6 +728,7 @@ ul {
 }
 #project-1{
     background-image: url('../img/movie-app.jpeg');
+    background-position: top;
 }
 #project-2{
     background-image: url('../img/trtoclock-hero.JPG');
