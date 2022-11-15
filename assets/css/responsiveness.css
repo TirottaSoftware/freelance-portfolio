@@ -819,6 +819,10 @@
         width: 90%;
         margin: 0 auto;
     }
+    .testimonial-card .img-wrapper{
+        margin: 10% 5%;
+        width: 150px;
+    }
     .testimonial-card-body{
         margin-bottom: 15px;
     }

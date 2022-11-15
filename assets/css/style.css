@@ -449,9 +449,11 @@ ul {
 }
 .testimonial-card .img-wrapper{
     margin: 10% 5%;
+    width: 500px;
 }
 .testimonial-card .img-wrapper img{
     border-radius: 50%;
+    width: 100%;
 }
 .testimonial-card-body p{
     width: 90%;
