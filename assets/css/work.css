@@ -80,6 +80,60 @@
 .work-hero-wrapper img{
     width: 100%;
 }
+
+.concept-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.concept-card{
+    margin: 25px 0;
+    width: calc(25% - 25px);
+}
+.concept-subtitle{
+    text-align: center;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 1% 0;
+}
+.concept-card .img-wrapper img{
+    width: 100%;
+}
+
+.instagram-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1% 15%;
+}
+.banner-copy{
+    padding: 2.5% 0;
+    width: 70%;
+}
+.banner-copy h2{
+    font-size: 2.5rem;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.instagram-container .img-wrapper{
+    transform: scaleX(-1);
+    width: 30%;
+}
+.instagram-container .img-wrapper img{
+    width: 100%;
+}
+.banner-copy a{
+    background: var(--color-accent-light);
+    color: white;
+    padding: 2% 10%;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
 .btn-popup{
     width: 100%;
     text-decoration: underline;

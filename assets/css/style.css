@@ -601,6 +601,7 @@ ul {
 
 #designs{
     background: var(--color-secondary);
+    padding-bottom: 5%;
 }
 #designs, #twitter{
     padding-top: 3%;
@@ -771,6 +772,11 @@ ul {
 }
 
 /* Work Process */
+
+#work-process{
+    background: var(--color-secondary);
+    padding-top: 2.5%;
+}
 
 .process-container{
     width: 70%;
@@ -998,7 +1004,7 @@ ul {
 .recent-project-container{
     position: relative;
     width: 70%;
-    margin: 10% auto;
+    margin: 5% auto;
     display: flex;
     align-items: center;
     justify-content: space-around;

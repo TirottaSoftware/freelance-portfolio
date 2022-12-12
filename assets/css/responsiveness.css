@@ -43,6 +43,16 @@
         padding-bottom: 2.5%;
     }
     
+    .concept-card{
+        margin: 25px 0;
+        width: calc(50% - 25px);
+    }
+    
+    .banner-copy h2{
+        font-size: 2.5rem;
+        width: 100%;
+        margin-bottom: 5%;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1365px){ 
@@ -169,9 +179,29 @@
     .recent-project-container .new-project-description p, .recent-project-container .new-project-description a{
         font-size: 1.15rem;
     }
+
+    .concept-card{
+        margin: 25px 0;
+        width: calc(50% - 25px);
+    }
+    .banner-copy{
+        padding: 10% 0;
+    }
+    .banner-copy h2{
+        font-size: 2rem;
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width: 1200px){
+    .banner-copy{
+        padding: 10% 0;
+    }
+    .banner-copy h2{
+        font-size: 2rem;
+        width: 100%;
+    }
     .navbar-container{
         justify-content: center;
     }
@@ -370,9 +400,30 @@
         width: 90%;
         margin: 50px auto;
     }
+    
+    .concept-card{
+        margin: 25px 0;
+        width: calc(50% - 25px);
+    }
 }
 
 @media screen and (max-width: 991px){
+    
+    .banner-copy h2{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .banner-copy a{
+        padding: 2.5% 15%;
+    }
+    .instagram-container{
+        justify-content: center;
+        text-align: center;
+    }
+    .instagram-container .img-wrapper{
+        display: none;
+    }
+
     .section-animate:first-child,
     .section-animate:nth-child(2),
     .section-animate:nth-child(3){
@@ -648,9 +699,28 @@
     .package-container .package-row p{
         font-size: 1rem;
     }
+
+    .concept-card{
+        margin: 25px 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 678px){
+    .banner-copy h2{
+        font-size: 1.75rem;
+        border: none;
+        width: 100%;
+    }
+    .instagram-container{
+        padding: 0;
+    }
+    .banner-copy a{
+        padding: 0;
+        color: var(--color-accent-light);
+        text-decoration: underline;
+        background: transparent;;
+    }
     .hero-container .hero-text #name{
         font-size: 2.5rem;
     }
