@@ -71,9 +71,10 @@ span{
 .bullet-point{
     width: 32px;
     height: 32px;
-    border-radius: 50%;
-    background: #46B4CC;
     margin-right: 16px;
+}
+.bullet-point img{
+    width: 100%;
 }
 .bp-content{
     font-family: "Sequel";
