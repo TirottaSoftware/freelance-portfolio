@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Montage';
+    src: url('./assets/fonts/Montage-Demo.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sequel';
+    src: url('./assets/fonts/Sequel100Black-45.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sequel';
+    src: url('./assets/fonts/Sequel100Black-75.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    font-family: "Montage";
+    color: #1C232E;
+    font-weight: 400;
+}
+p{
+    font-family: "Montserrat";
+    color: #888888;
+}
+b{
+    color: #1C232E;
+}
+span{
+    color: #46B4CC;
+}
+.main-headline{
+    font-size: 4.5rem;
+    text-align: center;
+    padding: 40px 160px 0 160px;
+}
+.subheading{
+    text-align: center;
+    width: 50%;
+    margin: 16px auto;
+    font-size: 1.25rem;
+}
+
+.main-container{
+    margin-top: 64px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.main-container h2{
+    font-size: 3rem;
+}
+.offer-content{
+    padding-right: 5%;
+    width: 55%;
+}
+.bullet-point-container{
+    display: flex;
+    align-items: center;
+    margin: 4% 0;
+}
+.bullet-point{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #46B4CC;
+    margin-right: 16px;
+}
+.bp-content{
+    font-family: "Sequel";
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1C232E;
+    font-size: 1rem;
+    width: calc(100% - 48px);
+}
+.offer-label{
+    margin-top: 16px;
+    font-size: 1.15rem;
+}
+.offer-image{
+    width: 35%;
+}
+.offer-image img{
+    width: 100%;
+}
+
+section#included{
+    padding: 40px 0;
+    margin: 40px 0;
+    background: #F0F0F0;;
+}
+.included-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.included-container h2{
+    font-size: 4rem;
+    margin: 16px 0;
+}
+.chapter-container{
+    display: flex;
+    margin: 2.5% auto;
+    justify-content: center;
+    align-items: center;
+}
+.chapter-col{
+    display: flex;
+    flex-flow: column;
+    margin: 0 2.5%;
+    width: 50%;
+}
+
+section#signup, section#testimonials{
+    margin: 80px 0;
+}
+#signup h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.signup-form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 55%;
+    margin: 24px auto;
+}
+.signup-form input{
+    margin: .5% 0;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+    padding: 20px;
+}
+.signup-form input[type="email"]{
+    border: 2px solid #1C232E;
+}
+.signup-form input[type="submit"]{
+    text-transform: uppercase;
+    background: #46B4CC;
+    color: white;
+    font-family: "Sequel";
+    border: none;
+    cursor: pointer;
+}
+input::placeholder{
+    text-transform: uppercase;
+    font-family: "Sequel";
+    color: #888888;
+}
+.testimonial-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.testimonial-img{
+    border-radius: 50%;
+    width: 320px;
+}
+.testimonial-img img{
+    width: 100%;
+    border-radius: inherit;
+}
+.testimonial-message{
+    width: 60%;
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 32px 0;
+}
+.testimonial-name{
+    text-transform: uppercase;
+    font-family: "Sequel";
+    color: #1C232E;
+    font-size: 1.25rem;
+}
+footer{
+    margin-top: 40px;
+    padding: 16px 0;
+    background: #F0F0F0;
+}
+footer p{
+    text-transform: uppercase;
+    font-family: "Sequel";
+    text-align: center;
+    color: #1C232E;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 991px){
+    .main-headline{
+        font-size: 4rem;
+        padding: 0;
+        padding-top: 40px;
+    }
+    .subheading{
+        width: 80%;
+        margin: 16px auto;
+    }
+    .main-container{
+        flex-flow: column-reverse;
+    }
+    .offer-content, .offer-image{
+        width: 100%;
+    }
+    .included-container, .signup-form, .testimonial-message{
+        width: 90%;
+    }
+}

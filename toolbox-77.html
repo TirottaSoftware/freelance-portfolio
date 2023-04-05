@@ -1,0 +1,178 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toolbox 77</title>
+    <link rel="stylesheet" href="toolbox.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="main-headline">
+      Use these <u>FREE</u> tools & websites to save time, boost productivity,
+      and become a master <span>UI/UX designer.</span>
+    </h1>
+    <p class="subheading">
+      Get access to a list of <b>77 must-have</b> resources and websites that
+      will boost your efficiency and transform you into an
+      <b>exceptional</b> UI/UX designer
+    </p>
+    <!-- <button id="tb-77">Get Subscribers</button> -->
+    <div class="main-container">
+      <div class="offer-content">
+        <h2>Get Ready To:</h2>
+        <div class="bullet-point-container">
+          <div class="bullet-point"></div>
+          <p class="bp-content">
+            Say goodbye to the endless Google searches and save precious
+            <b>time and effort</b> on your design process.
+          </p>
+        </div>
+        <div class="bullet-point-container">
+          <div class="bullet-point"></div>
+          <p class="bp-content">
+            Access <b>free and premium</b> design assets, such as icons, fonts,
+            stock photos, and templates, and elevate your designs to the
+            <b><u>next level</u></b
+            >.
+          </p>
+        </div>
+        <div class="bullet-point-container">
+          <div class="bullet-point"></div>
+          <p class="bp-content">
+            Improve your website's performance and search engine optimization
+            with <b>little-to-no effort</b>, ensuring your sites are both
+            stunning and functional.
+          </p>
+        </div>
+        <div class="bullet-point-container">
+          <div class="bullet-point"></div>
+          <p class="bp-content">
+            Get inspiration from <b>UNPOPULAR</b> showcase websites and
+            galleries that feature the latest trends and innovative designs.
+          </p>
+        </div>
+        <p class="offer-label">
+          Best of all, there’s absolutely no cost. You’ll gain access to all
+          these resources completely <b>FREE of charge!</b>
+        </p>
+      </div>
+      <div class="offer-image">
+        <img src="./assets/img/toolbox-mockup.png" alt="Book" />
+      </div>
+    </div>
+    <section id="included">
+      <div class="included-container">
+        <h2>15+ Chapters, Including:</h2>
+        <div class="chapter-container">
+          <div class="chapter-col">
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">typography resources</p>
+            </div>
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">color resources</p>
+            </div>
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">mockup resources</p>
+            </div>
+          </div>
+          <div class="chapter-col">
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">wireframing</p>
+            </div>
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">icons & illustration</p>
+            </div>
+            <div class="bullet-point-container">
+              <div class="bullet-point"></div>
+              <p class="bp-content">graphics & images</p>
+            </div>
+          </div>
+        </div>
+        <h2>And <u>MUCH MORE!</u></h2>
+      </div>
+    </section>
+    <section id="signup">
+      <h2>Sign up NOW to get your <span>FREE</span> copy!</h2>
+      <form class="signup-form">
+        <input type="email" placeholder="Enter Your Email" />
+        <input type="submit" value="Send me the toolbox!" />
+      </form>
+    </section>
+    <section id="testimonial">
+      <div class="testimonial-container">
+        <div class="testimonial-img">
+          <img
+            src="./assets//img/toolbox-77-maria.jpeg"
+            alt="Maria, Junior UX Designer"
+          />
+        </div>
+        <p class="testimonial-message">
+          "Toolbox 77 has been a valuable asset to my career as a Junior UX
+          designer. Thanks to the comprehensive list of resources, I was able to
+          significantly optimize my workflow and save approximately 2 hours of
+          daily work by incorporating the tools and websites recommended in the
+          guide. Currently, I rely on at least 6 of these resources on a daily
+          basis to streamline my design process and maximize efficiency. I
+          highly recommend Toolkit 77 to any designer looking to enhance their
+          skillset and elevate their work to the next level."
+        </p>
+        <p class="testimonial-name"><b>Maria</b>, junior ux designer</p>
+      </div>
+    </section>
+    <footer>
+      <p>Cristian Tirotta &copy; 2023</p>
+    </footer>
+  </body>
+</html>
+<script type="text/javascript">
+  const form = document.querySelector(".signup-form");
+  const email = document.querySelector('.signup-form input[type="email"]');
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    console.log(email.value);
+    subscribeToMailerLite(email.value)
+      .then((response) => console.log(response))
+      .catch((error) => console.error(error));
+  });
+
+  async function subscribeToMailerLite(email) {
+    const apiKey =
+      "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiZTY4OWM5ZTVmZTg5NTkzNWE0ZDY1YmQwN2RmM2U3ZmRmMzQwMDhjNzAxMzgyZjFmNWQyMzM1NDIzNGY1MzE4NGJkODhkMWUyMGM0MWNiZjAiLCJpYXQiOjE2ODA2MTI3NDEuNjEyNzQ3LCJuYmYiOjE2ODA2MTI3NDEuNjEyNzQ5LCJleHAiOjQ4MzYyODYzNDEuNjA2OTIzLCJzdWIiOiI0MTg4NjgiLCJzY29wZXMiOltdfQ.OLJto0moLa4OXpeVcNncE-pdTYB3b_W-_oxHF1YCUzuUNZcsplLCPqm7De9gYqB1itbZBjtYlUnea9-2OGJLtca0sd3zW2W8kSGcUzzSPZ3K4cz5oxUUM_ZjnzXhaG_YYc_Puo6SAjr3mveVLVJ_lyXbwms7_Kz4rgJqFAvJKznp3m3saAE5O4wHD9PkOi240hj1gz7FbTqfjJ8CyHZ3jXVVWwz5by1c-5I31U1x9-HZ09_QObLEDnry4xIpadHzLcEgGyVt3x4mdWYG6SVzvb6I3SzJrmjv-v7m1py0FNrFaSFrHNQI7M6JP0DnYOwtJMRpdsDtW39Kr-wC4vdfkbbihl5B29cyurQiJjbEKdyD0gyaORGbmRubUuS6GjyuMzeKgSB7Drt9LVkh240-WvM1sQRJ1-OwOJy7xrEbQzj7eQHR83KzPP19YFX4FAPRzFWPcTuSdXwVK5SOMzBkOpdXHI4aJ9NatfuNnoF9JI_joWYcJLqxYJFe3wKPyGAQFVTpU_DJ7ZVRZsU-vB78kQUApA9HZIe8lAKrqkpTLk-3SZBRWqa17IfCPbbiJrbJK8pUjJLwhiU-kCzkivfWYU0PKJPu9z0FbaRvvdKaj1zQ5eIyXK-Rup8qaSJDKgd4_cPtTFJY5IbNqzzl6LpKCgTnEI6IuC6oFCS6ve4x2wY"; // Replace with your MailerLite API key
+
+    const url = `https://connect.mailerlite.com/api/subscribers`;
+
+    const data = {
+      email,
+      groups: ["84529124986586464"],
+    };
+
+    const response = await fetch(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Failed to subscribe ${email} to MailerLite`);
+    }
+
+    return response.json();
+  }
+</script>
+<!--End mc_embed_signup-->
