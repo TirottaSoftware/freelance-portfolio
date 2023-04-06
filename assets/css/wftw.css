@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Montage';
+    src: url('../../assets/fonts/Montage-Demo.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sequel';
+    src: url('../../assets/fonts/Sequel100Black-45.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sequel';
+    src: url('../../assets/fonts/Sequel100Black-75.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+h1, h2, h3{
+    font-family: "Montage";
+    color: #1C232E;
+    font-weight: 400;
+    width: 75%;
+    font-size: 4rem;
+}
+span{
+    color: #46B4CC;
+}
+ol {
+    padding: 0 2.5%;
+    list-style: none;
+    counter-reset: item;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    text-align: start;
+  }
+  li {
+    counter-increment: item;
+    margin: 1% 0;
+  }
+  li p{
+    display: inline;
+    width: 100%;
+    text-align: start;
+  }
+  li:before {
+    content: counter(item);
+    text-align: center;
+    margin-right: 8px;
+    display: inline-block;
+    font-family: 'Sequel';
+    background: #46B4CC;
+   border-radius: 100%;
+   color: white;
+   width: 32px;
+   height: 32px;
+  }
+  .donts ol li:before{
+    background: #E9003F;
+  }
+.col-brand{
+    color: #46B4CC;
+}
+.col-text{
+    color: #888888;;
+}
+.col-dark{
+    color: #1C232E;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Montserrat';
+    text-transform: none;
+    color: #888888;
+    margin: 1% 0;
+    font-size: 1.15rem;
+}
+p.sq{
+    font-family: 'Sequel';
+    text-transform: uppercase;
+    color: #1C232E;
+}
+.bg-grey{
+    background-color: #F0F0F0;
+}
+a.cta{
+    display: block;
+    background: #46B4CC;
+    color: white;
+    text-decoration: none;
+    margin: 2.5% 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Sequel";
+    font-weight: 400;
+    padding: 20px 0;
+}
+.img-wrapper img{
+    width: 100%;
+}
+
+.main-headline{
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.5% 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-headline p{
+    width: 40%;
+}
+.main-headline .img-wrapper{
+    width: 50%;
+}
+
+.bp-container{
+    width: 35%;
+    margin: 2.5% auto;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+.bp-container .bp{
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+.bp-container .bp p{
+    width: 90%;
+}
+.bp-container .bp .img-wrapper{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+.page-width{
+    width: 70%;
+    margin: 80px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.pnc-container, .offer-container{
+    display: flex;
+    align-items: start;
+}
+.pros h2, .cons h2{
+    width: 100%;
+    font-size: 3.5rem;
+    text-align: start;
+}
+.pros .bp-container, .cons .bp-container, .offer-content .bp-container{
+    width: 100%;
+    text-align: start;
+}
+#skill{
+    width: 60%;
+    margin: auto;
+}
+.pros, .cons, .dos, .donts{
+    width: 50%;
+    padding: 0 2.5%;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+#h-do, #h-dont{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 2.5%;
+}
+#h-do{
+    color:#46B4CC ;
+}
+#h-dont{
+    color: #E9003F;
+}
+.offer-container{
+    align-items: center;
+}
+.offer-content{
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+.offer-content h3{
+    text-align: start;
+}
+.offer-content .cta{
+    width: 100%;
+    font-size: 1.15rem;
+}
+.bp-container .cta{
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px){
+    h1, h2, h3, .main-headline p, .main-headline .img-wrapper, .pros, .cons, .dos, .donts{
+        width: 100%;
+    }
+    .bp-container, .page-width, #skill{
+        width: 90%;
+    }
+    .pnc-container{
+        flex-flow: column;
+    }
+    .offer-container{
+        flex-flow: column-reverse;
+    }
+    .offer-content .cta{
+        font-size: 1rem;
+    }
+    h1, h2, h3{
+        font-size: 3rem;
+    }
+    p.sq{
+        font-size: 1rem;
+    }
+}

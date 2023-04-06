@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'Montage';
-    src: url('./assets/fonts/Montage-Demo.ttf');
+    src: url('../../assets/fonts/Montage-Demo.ttf');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sequel';
-    src: url('./assets/fonts/Sequel100Black-45.ttf');
+    src: url('../../assets/fonts/Sequel100Black-45.ttf');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Sequel';
-    src: url('./assets/fonts/Sequel100Black-75.ttf');
+    src: url('../../assets/fonts/Sequel100Black-75.ttf');
     font-weight: 600;
     font-style: normal;
 }
