@@ -199,6 +199,76 @@ footer p{
     font-weight: 600;
 }
 
+/* Thank You Page */
+
+.top-header{
+    background: #f0f0f0;
+    width: 100%;
+    padding: 2.5%;
+    text-align: center;
+}
+.top-header h1{
+    font-size: 4rem;
+}
+.top-header h1 span{
+    display: block;
+}
+.top-header p{
+    width: 40%;
+    margin: 1% auto;
+}
+.ty-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 2.5% auto;
+}
+.ty-content, .ty-img{
+    width: 50%;
+}
+.ty-content{
+    padding-right: 3%;
+}
+.ty-content p{
+    text-transform: uppercase;
+    font-family: "Sequel";
+    color: #1C232E;
+    line-height: 175%;
+}
+.ty-img img{
+    width: 100%;
+}
+.ty-content .ty-disclaimer{
+    font-family: "Montserrat";
+    font-size: 1rem;
+    color: #888888;
+    text-transform: none;
+    line-height: unset;
+    margin-bottom: 2.5%;
+}
+.code{
+    width: 100%;
+    margin: 2.5% auto;
+    background: #F0F0F0;
+    padding: 16px 0;
+    text-align: center;
+}
+.code h2{
+    font-size: 4rem;
+}
+.ty-cta{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background: #46B4CC;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Sequel";
+    padding: 16px 0;
+}
+
 @media screen and (max-width: 991px){
     .main-headline{
         font-size: 4rem;
@@ -217,5 +287,15 @@ footer p{
     }
     .included-container, .signup-form, .testimonial-message{
         width: 90%;
+    }
+
+    .top-header p{
+        width: 100%;
+    }
+    .ty-main{
+        flex-flow: column-reverse;
+    }
+    .ty-content, .ty-img{
+        width: 100%;
     }
 }
