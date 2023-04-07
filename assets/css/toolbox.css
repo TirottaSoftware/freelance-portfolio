@@ -21,6 +21,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
 h1, h2, h3{
     font-family: "Montage";
     color: #1C232E;
@@ -297,5 +302,8 @@ footer p{
     }
     .ty-content, .ty-img{
         width: 100%;
+    }
+    .bp-content, p, .testimonial-name{
+        font-size: .8rem;
     }
 }
