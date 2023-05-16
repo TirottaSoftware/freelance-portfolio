@@ -145,6 +145,9 @@ ul {
     opacity: 0;
     transition: all .7s ease;
 }
+.section-animate h3{
+    text-align: center;
+}
 .section-active{
     transform: translateY(0);
     opacity: 1;
