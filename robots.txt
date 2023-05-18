@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /toolbox-77
+Disallow: /thankyou
+Disallow: /wftw
